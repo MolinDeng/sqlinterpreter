@@ -39,7 +39,7 @@
       string attr_name;
       int attr_type;	//属性的数据类型，分别为CHAR, FLOAT, INT
       int attr_key_type;//属性的主键类型，分别为PRIMARY, UNIQUE, NULL(EMPTY)
-      int attr_len; 	//属性所存放的数据的长度，如果不是CHAR，则长度标记为1
+      int attr_len; 	//属性所存放的数据的长度，如果不是CHAR，则长度标记为4
       int attr_id;    //属性在表中是第几个
   };
   ```
