@@ -19,6 +19,7 @@ bool DEBUG_Create_Table(Table& table)
     cout << endl << "attr_id: " << "\t";
     for (int i = 0; i < table.attr_count; i++)
         cout << table.attrs[i].attr_id << "\t";
+    cout << endl;
     return true;
 }
 
